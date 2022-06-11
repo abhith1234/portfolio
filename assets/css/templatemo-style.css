@@ -879,7 +879,7 @@ section.contact-me {
     }
 
     .toolstech div {
-        width: 20vw;
+        width: 25vw;
         height: 20vw;
         /*display: inline-block; */
         text-align: center;
@@ -960,9 +960,9 @@ section.contact-me {
     }
 
     .section1 {
-        width: 97%;
-        right: 1%;
-        left: 2%;
+        width: 99%;
+        right: 0%;
+        left: 1%;
     }
     .devp {
         margin-top: 50vh;
