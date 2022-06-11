@@ -176,13 +176,62 @@ html {
     transition: all 0.5s;
 }
 
+.social-network a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.5s;
+    margin: 0px 20px;
+}
+
+.social-network span {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    font-size: 14px;
+    transition: all 0.5s;
+    margin: 0px 20px;
+}
+
 .social-network {
     align-items: center;
     display: flex;
-    margin-left: 2vw;
+    margin-left: 12vw;
     flex-direction: row;
     margin-top: -40px;
     margin-bottom: -40px;
+}
+
+
+.toolstech div {
+    width: 30vw;
+    height: 30vw;
+    /*display: inline-block; */
+    text-align: center;
+    /* line-height: 40px; */
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* color: #fff; */
+    /* font-size: 14px; */
+    /* transition: all 0.5s; */
+    /* margin: 0px 20px; */
+}
+
+.toolstech {
+    align-items: center;
+    display: flex;
+    /* margin-left: 12vw; */
+    flex-direction: row;
+    /* margin-top: -40px;
+    margin-bottom: -40px; */
 }
 
 .menu .social-network ul li a:hover {
@@ -297,6 +346,10 @@ html {
     margin: 10px 0;
 }
 
+.devp {
+    margin-top: 0px;
+}
+
 .section {
     color: #fff;
     width: 55%;
@@ -304,6 +357,19 @@ html {
     left: 35%;
     position: relative;
     min-height: 70vh;
+    /* max-height: 100vh; */
+    padding-bottom: 80px;
+    border-bottom: 3px solid rgba(250, 250, 250, 0.25);
+}
+
+.section1 {
+    color: #fff;
+    width: 55%;
+    right: 10%;
+    left: 35%;
+    position: relative;
+    min-height: 90vh;
+    /* max-height: 100vh; */
     padding-bottom: 80px;
     border-bottom: 3px solid rgba(250, 250, 250, 0.25);
 }
@@ -767,6 +833,27 @@ section.contact-me {
     }
 }
 
+.toolstech div {
+    width: 20vw;
+    height: 20vw;
+    /*display: inline-block; */
+    text-align: center;
+    /* line-height: 40px; */
+    /* background-color: rgba(0, 0, 0, 0.2); */
+    /* color: #fff; */
+    /* font-size: 10px; */
+    /* transition: all 0.5s; */
+    /* margin: 0px 20px; */
+}
+
+/* .toolstech div h4{
+    font-size: 15px;
+} */
+
+.devp {
+    margin-top: 50vh;
+}
+
 #menu-toggle,
 #menu-close {
     display: none;
@@ -777,6 +864,58 @@ section.contact-me {
     #menu-close {
         display: inline-block;
     }    
+
+    .social-network a {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #fff;
+        font-size: 14px;
+        transition: all 0.5s;
+        margin: 0px 7px;
+    }
+
+    .toolstech div {
+        width: 20vw;
+        height: 20vw;
+        /*display: inline-block; */
+        text-align: center;
+        /* line-height: 40px; */
+        /* background-color: rgba(0, 0, 0, 0.2); */
+        /* color: #fff; */
+        /* font-size: 10px; */
+        /* transition: all 0.5s; */
+        /* margin: 0px 20px; */
+    }
+
+    .toolstech div h4{
+        font-size: 15px;
+    }
+    
+    .social-network span {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        text-align: center;
+        line-height: 40px;
+        background-color: rgba(0, 0, 0, 0.2);
+        color: #fff;
+        font-size: 14px;
+        transition: all 0.5s;
+        margin: 0px 7px;
+    }
+    
+    .social-network {
+        align-items: center;
+        display: flex;
+        margin-left: 4vw;
+        flex-direction: row;
+        margin-top: -40px;
+        margin-bottom: -40px;
+    }
 
     .menu {        
         width: 320px;
@@ -815,9 +954,18 @@ section.contact-me {
         display: inline-block;
     }
     .section {
-        width: 94%;
-        right: 3%;
-        left: 3%;
+        width: 97%;
+        right: 1.5%;
+        left: 1.5%;
+    }
+
+    .section1 {
+        width: 97%;
+        right: 1%;
+        left: 2%;
+    }
+    .devp {
+        margin-top: 50vh;
     }
 
     /* .section1 {
